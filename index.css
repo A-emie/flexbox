@@ -1,0 +1,28 @@
+.flex-container{
+    display: flex;
+    background-color: dodgerblue;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row; 
+}
+
+.flex-container > div{
+    margin: 50px;
+    width: 100px;
+    text-align: center;
+    background-color: cyan;
+    line-height: 70px;
+    font-size: 50px;
+}
+#b{
+    background-color: goldenrod;
+}
+#c{
+    background-color: purple;
+}
+#d{
+    background-color: green;
+}
+a{
+    text-decoration: none;
+}
